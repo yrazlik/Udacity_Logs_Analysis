@@ -82,6 +82,7 @@ def get_error_days():
     for day, percent in error_days:
         print(str(day) + " -- " + str(percent * 100) + "% of requests.")
 
+
 get_top_three_articles()
 get_top_authors()
 get_error_days()
